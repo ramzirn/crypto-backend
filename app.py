@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from crypto import caesar_encrypt, vigenere_encrypt, substitution_encrypt
 from cryptosymetrique import * 
+import os
 8 
 from flask_cors import CORS
 
